@@ -25,7 +25,7 @@ public class LoginActivity extends AppCompatActivity {
     public void logar(View view){
         String login = etLogin.getText().toString();
         String senha = etSenha.getText().toString();
-        if (login.equals("FIAP") && senha.equals("123")){
+        if (login.equals("xablau") && senha.equals("123")){
             Intent intent = new Intent(this, PedidoActivity.class);
             intent.putExtra("usuario",login);
             startActivity(intent);

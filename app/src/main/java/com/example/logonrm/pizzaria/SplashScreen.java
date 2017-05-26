@@ -9,7 +9,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 
-public class SplashScreen extends AppCompatActivity {,
+public class SplashScreen extends AppCompatActivity {
 
     private final int SPLASH_DISPLAY_LENGTH = 3500;
 
